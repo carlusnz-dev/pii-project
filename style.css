@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+   font-family: 'Inter', monospace;
+   min-width: 392px;
+   background: #f3fdf1;
+}
+
+.map-container{
+   overflow:hidden;
+   padding-bottom:56.25%;
+   position:relative;
+   height:0;
+ }
+ .map-container iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+ }
