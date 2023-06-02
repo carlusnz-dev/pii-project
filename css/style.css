@@ -3,7 +3,18 @@
 body {
    font-family: 'Inter', monospace;
    min-width: 392px;
-   background: #f3fdf1;
+   background: #01220c;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6cf160;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0px 0px 5px;
 }
 
 .map-container{
@@ -22,7 +33,6 @@ body {
 
 .card {
     height: 24rem;
-  }
-  .card img {
-    
+    border: none;
+    background-color: #ffffff;
   }

@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="fiveicon.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -25,16 +25,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav container-fluid d-flex justify-content-end px-5">
           <li class="nav-item">
-            <a class="nav-link fw-bolder fs-4 text-uppercase" href="#">Início</a>
+            <a class="nav-link fw-bolder fs-5 text-uppercase" href="#">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bolder fs-4 text-uppercase" href="#mapa">Mapa</a>
+            <a class="nav-link fw-bolder fs-5 text-uppercase" href="#escolas">Escolas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bolder fs-4 text-uppercase" href="#escolas">Escolas</a>
+            <a class="nav-link fw-bolder fs-5 text-uppercase" href="#mapa">Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a href="pags/historia.html" class="nav-link fw-bolder fs-5 text-uppercase">História</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fw-bolder fs-4 text-uppercase" href="#" role="button"
+            <a class="nav-link dropdown-toggle fw-bolder fs-5 text-uppercase" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               CONTATO
             </a>
@@ -53,7 +56,7 @@
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/banner.jpg" class="d-block w-100" alt="carrossel - slide 1" />
+          <img src="img/banner.jpg" class="d-block w-100 rounded-5" alt="carrossel - slide 1" />
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -71,9 +74,8 @@
 
   <main class="container mb-5">
     <section id="escolas">
-      <div class="container p-1 bg-dark mb-5" style="border-radius: 5px;"></div>
-      <div class="container text-center">
-        <h4 class="mb-4 fw-bold">Instituições</h4>
+      <div class="container text-center rounded-3 shadow p-5" style="background-color: #3c6d29;">
+        <h4 class="mb-4 fw-bold text-light">Instituições</h4>
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -226,8 +228,8 @@
 
     <section id="mapa">
       <div class="container-fluid mt-5 text-center">
-        <h2 class="fw-bolder">MAPA</h2>
-        <div class="container bg-dark rounded-5 p-1 mb-3"></div>
+        <h2 class="fw-bolder text-light">MAPA</h2>
+        <div class="container bg-light rounded-5 p-1 mb-3"></div>
         <div id="map-container-google-1" class="z-depth-1-half map-container">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31523.373959068103!2d-42.700605575872494!3d-9.025236317361436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sescolas!5e0!3m2!1spt-BR!2sbr!4v1685570233270!5m2!1spt-BR!2sbr"
@@ -238,14 +240,33 @@
     </section>
   </main>
 
-  <footer class="text-center text-light" style="background: #164204;">
-    <h5 class="fw-bold">Desenvolvido por alunos</h5>
-    <p class="mb-0">Tema: Polo Educacional</p>
+  <footer class="text-light p-4" style="background: #164204;">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-lg-4">
+          <p>
+            Projeto Integradorder<br>
+            Polo Educacional
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p>
+            Site desenvolvido por <br>
+            @carlusnz-dev
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p>Fontes usadas:</p>
+          <a href="#" class="link-light">PRIMEIRA FONTE</a><br>
+          <a href="#" class="link-light">SEGUNDA FONTE</a>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <!--Participantes: Carlos Alberto, Isaque, Tati, Tailla, Vitor Emanuel, Antônio José, Acácio, Pedro Henrique-->
 
-  <script src="script.js"></script>
+  <script src="script/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
