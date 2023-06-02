@@ -23,8 +23,6 @@ body {
 .card {
     height: 24rem;
   }
-  @media (max-width: 982px) {
-    .card img {
-      height: 70px;
-    }
+  .card img {
+    
   }
