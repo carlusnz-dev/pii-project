@@ -1,4 +1,9 @@
 header #container-fluid {
-  background: url(/img/bg-historia.jpeg) fixed;
+  background: url(../img/bg-historia.jpeg) fixed;
   background-size: 100vw;
+  padding: 100px;
+}
+
+main h2 {
+  font-weight: 700;
 }
