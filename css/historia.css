@@ -4,6 +4,27 @@ header #container-fluid {
   padding: 100px;
 }
 
-main h2 {
+main h4 {
   font-weight: 700;
 }
+
+#banner {
+  background: url(../img/colegio-dom-inocencio.jpg);
+  height: 300px;
+  background-size: 100vw;
+  background-position: -200px;
+}
+
+#img-galeria {
+  transition: all .2s ease-in-out;
+}
+
+  #img-galeria:hover {
+    opacity: 80%;
+    padding: 5px;
+  }
+
+  #img-galeria:active {
+    padding: 7px;
+    opacity: 50%;
+  }
