@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Integrador III</title>
+  <link rel="shortcut icon" href="public/img/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="public/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--Navbar padrão-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark px-lg-5 px-3 scrolled" id="navbar">
+      <a class="navbar-brand d-block d-lg-none" href="#">
+        PI 3
+        <img src="public/img/logo.png" alt="logo" height="50"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="off" id="navbarSupportedContent">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Projeto Integrador III</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/artigo.html">Artigo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-lg-block d-none" href="index.html">
+                <img src="public/img/logo.png" alt="logo" height="60"/>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/podcast.html">Podcast</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/sobre.html">Sobre</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--grid padrao bs5-->
+    <div class="container header-cover obj-fade" id="headerCover">
+      <div class="row title-start">
+        <div class="col-12 col-lg-6 header-items">
+          <h1 class="display-1 fw-bold">Estado do Ceará</h1>
+          <h2 class="display-5">Terra da luz</h2>
+          <p class="lead">
+            Conheça a história, cultura e belezas naturais do estado do Ceará.
+          </p>
+          <a class="btn btn-primary acess-history" href="pages/artigo.html">Saiba mais</a>
+        </div>
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+          <img src="public/img/img-banner-3.jpg" alt="banner1" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!--Apresentando o site-->
+    <div class="container mb-5 obj-fade" id="apresentacao">
+      <h1 class="display-3 text-center">Veja um pouco</h1>
+      <hr />
+      <!--Galeria de fotos do Ceará-->
+      <div class="row" id="gallery">
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0" id="banner-group-1">
+          <img src="public/img/img-banner-1.jpg" alt="banner-gallery-1" class="img-fluid rounded d-none d-lg-block" />
+        </div>
+        <div class="col-12 col-lg-6" id="banner-group-2">
+          <div class="row me-2">
+            <img src="public/img/img-banner-2.jpg" alt="banner-gallery-2" class="img-fluid" />
+            <img src="public/img/img-banner-3.jpg"alt="banner-gallery-2" class="img-fluid" />
+          </div>
+          <div class="row">
+            <img src="public/img/img-banner-4.jpg" alt="banner-photo-2" class="img-fluid" />
+            <img src="public/img/img-banner-5.jpg" alt="banner-photo-2" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3" id="legenda">
+        <p>Fotos do Ceará e suas belezas naturais</p>
+      </div>
+      <!--Artigo resumido-->
+      <div class="row" id="historia">
+        <div class="col-12">
+          <h1 class="display-3 text-center">Leia a sua história</h1>
+          <p class="text-center">Veja o nosso artigo onde conta tudo sobre essa terra!</p>
+          <hr />
+          <div class="container artigo-container p-3 p-lg-5 bg-dark-subtle">
+            <h2 class="mb-3">Estado do Ceará: Um Olhar Abrangente sobre sua Economia, Cultura e Desenvolvimento</h2>
+            <p>
+              O estado do Ceará é uma terra rica em história, cultura e diversidade. Com uma economia em constante
+              crescimento, uma população diversificada e uma série de recursos naturais, desempenha um papel
+              significativo no cenário nacional. Neste artigo exploraremos diversos aspectos que definem o estado, desde
+              sua geografia até sua influência política e desenvolvimento tecnológico.
+              <br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp; A cultura cearense é rica e variada, com expressões como forró, reisado, bumba-meu-boi e festas juninas
+              desempenhando um papel importante na vida das pessoas. A literatura também ganha destaque, com autores
+              como José de Alencar, Rachel de Queiroz e Patativa do Assaré enriquecendo o cenário literário brasileiro.
+              <br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;O Ceará é rico em riquezas naturais, incluindo dunas, praias, montanhas e rios. A biodiversidade da região
+              é um tesouro que precisa ser preservado para as gerações futuras. O estado tem se destacado nas
+              exportações de produtos têxteis, calçados, frutas e pescados. Seus líderes têm participado ativamente da
+              política brasileira.
+              <br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;O Ceará tem atraído empresas de tecnologia e inovação, contribuindo para a criação de um ecossistema
+              empreendedor. Importa produtos como máquinas industriais e produtos químicos. O estado do Ceará, com sua
+              história, cultura, economia diversificada e recursos naturais, desempenha um papel importante no Brasil.
+            </p>
+            <a href="pages/artigo.html" class="btn btn-primary">Ver artigo completo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="public/js/script.js"></script>
+</body>
+
+</html>

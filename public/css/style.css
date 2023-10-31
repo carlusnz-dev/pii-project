@@ -1,0 +1,168 @@
+body {
+    min-width: 372px;
+}
+
+header {
+    margin-bottom: 5rem;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.5s ease-in-out;
+    line-height: 60px;
+}
+
+.scroll {
+    background-color: #31313173;
+}
+
+.navbar .nav-item a {
+    font-size: 17px;
+    margin: 0 10px;
+    transition: all .1s ease-in-out;
+    padding: 0;
+}
+
+.navbar .nav-link a:hover {
+    color: #fff;
+}
+
+.header-cover {
+    width: 100%;
+    height: 100%;
+    margin-top: 8rem;
+}
+
+.header-cover img {
+    height: 100%;
+}
+
+.header-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#gallery {
+    margin-bottom: 1rem;
+}
+
+#gallery img {
+    object-fit: cover;
+    height: 100%;
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}
+
+#gallery img:active {
+    transform: scale(0.95);
+}
+
+#banner-group-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-group-2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-group-2 img {
+    margin-bottom: 1rem;
+    height: 200px;
+    width: 200px;
+}
+
+#legenda {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#historia {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.artigo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 7px solid #17191f;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Títulos e textos no centro */
+    .header-cover .display-1,
+    .display-5 {
+        text-align: center;
+    }
+
+    #banner-group-2 {
+        display: flex;
+    }
+
+    .artigo-container {
+        width: 100%;
+    }
+
+    #navbar {
+        line-height: 3rem;
+    }
+
+}
+
+/* scroll personalizado */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #17191f;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #383a413a;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    #banner-group-1 {
+        justify-content: end;
+    }
+}
+
+.obj-fade {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0px);
+}
