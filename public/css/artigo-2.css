@@ -1,0 +1,123 @@
+#title-cover {
+    margin: 5rem auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../img/img-fortaleza.jpeg) no-repeat fixed;
+    background-size: cover;
+}
+
+#title-cover .lead {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 14px;
+    padding-inline: 20px;
+}
+
+.row {
+    margin: 4rem auto;
+}
+
+.mainTitle {
+    text-align: center;
+}
+
+.mainTitle .title {
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.mainTitle .title span {
+    font-weight: bold;
+}
+
+.mainTitle .subtitle {
+    font-size: 18px;
+}
+
+.mainTopic {
+    padding: 0 50px;
+} 
+
+.title--topic {
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.title--topic span {
+    font-weight: bold;
+}
+
+.text {
+    font-size: 21px;
+}
+
+.img-topic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-topic-mobile {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.gallery-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.gallery-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.gallery-mobile-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    row-gap: 2rem;
+}
+
+.gallery-mobile-3 img {
+    aspect-ratio: 21/9;
+}
+
+@media screen and (max-width: 768px) {
+    #title-cover {
+        height: 50vh;
+    }
+
+    .row {
+        margin: 4rem auto;
+    }
+
+    .mainTopic {
+        padding: 0 7px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .row {
+        margin: 7rem auto;
+    }
+
+    .mainTopic {
+        padding: 0 15px;
+    }
+}

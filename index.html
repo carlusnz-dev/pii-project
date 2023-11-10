@@ -34,7 +34,15 @@
               <a class="nav-link active" aria-current="page" href="index.html">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/artigo.html">Artigo</a>
+              <div class="dropdown">
+                <button class="btn bg-transparent dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artigos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="pages/artigo.html" class="dropdown-item">Artigo 1</a></li>
+                  <li><a href="pages/artigo-2.html" class="dropdown-item">Artigo 2</a></li>
+                </ul>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link d-lg-block d-none" href="index.html">
@@ -53,7 +61,7 @@
     </nav>
 
     <!--grid padrao bs5-->
-    <div class="container header-cover obj-fade" id="headerCover">
+    <div class="container header-cover" id="headerCover">
       <div class="row title-start">
         <div class="col-12 col-lg-6 header-items">
           <h1 class="display-1 fw-bold">Estado do Ceará</h1>
@@ -72,22 +80,20 @@
 
   <main>
     <!--Apresentando o site-->
-    <div class="container mb-5 obj-fade" id="apresentacao">
-      <h1 class="display-3 text-center">Veja um pouco</h1>
+    <div class="container mb-5" id="apresentacao">
+      <h1 class="display-5 text-center">Veja um pouco</h1>
       <hr />
       <!--Galeria de fotos do Ceará-->
-      <div class="row" id="gallery">
+      <div class="row obj-fade" id="gallery">
         <div class="col-12 col-lg-6 mb-4 mb-lg-0" id="banner-group-1">
-          <img src="public/img/img-banner-1.jpg" alt="banner-gallery-1" class="img-fluid rounded d-none d-lg-block" />
+          <img src="public/img/img-banner-1.jpg" alt="banner-gallery-1" class="d-none d-lg-block" />
         </div>
         <div class="col-12 col-lg-6" id="banner-group-2">
-          <div class="row me-2">
-            <img src="public/img/img-banner-2.jpg" alt="banner-gallery-2" class="img-fluid" />
-            <img src="public/img/img-banner-3.jpg"alt="banner-gallery-2" class="img-fluid" />
-          </div>
-          <div class="row">
-            <img src="public/img/img-banner-4.jpg" alt="banner-photo-2" class="img-fluid" />
-            <img src="public/img/img-banner-5.jpg" alt="banner-photo-2" class="img-fluid" />
+          <div class="col-photo">
+            <img src="public/img/img-banner-2.jpg" alt="banner-photo-2"/>
+            <img src="public/img/img-banner-3.jpg"alt="banner-photo-2"/>
+            <img src="public/img/img-banner-4.jpg" alt="banner-photo-2"/>
+            <img src="public/img/img-banner-5.jpg" alt="banner-photo-2"/>
           </div>
         </div>
       </div>
@@ -95,9 +101,9 @@
         <p>Fotos do Ceará e suas belezas naturais</p>
       </div>
       <!--Artigo resumido-->
-      <div class="row" id="historia">
+      <div class="row obj-fade" id="historia">
         <div class="col-12">
-          <h1 class="display-3 text-center">Leia a sua história</h1>
+          <h1 class="display-5 text-center">Leia a sua história</h1>
           <p class="text-center">Veja o nosso artigo onde conta tudo sobre essa terra!</p>
           <hr />
           <div class="container artigo-container p-3 p-lg-5 bg-dark-subtle">

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Integrador III</title>
+    <link rel="shortcut icon" href="public/img/logo.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link rel="stylesheet" href="../public/css/artigo-2.css">
+</head>
+
+<body>
+    <!--Navbar padrão-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark px-lg-5 px-3 scrolled" id="navbar">
+            <a class="navbar-brand d-block d-lg-none" href="#">
+                PI 3
+                <img src="../public/img/logo.png" alt="logo" height="60" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="off" id="navbarSupportedContent">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Projeto Integrador III</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn bg-transparent dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Artigos
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../pages/artigo.html" class="dropdown-item">Artigo 1</a></li>
+                                    <li><a href="../pages/artigo-2.html" class="dropdown-item">Artigo 2</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-lg-block d-none" href="../index.html">
+                                <img src="../public/img/logo.png" alt="logo" height="60" />
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="podcast.html">Podcast</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid" id="title-cover">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-1 fw-bold">Um Plano de Viagens</h1>
+                    <p class="lead">
+                        Leia e escolha os melhores lugares para visitar!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mainTitle">
+                <div class="col-12">
+                    <h1 class="title">Descobrindo as Maravilhas do Ceará: Um Roteiro de Viagens <span>Inesquecível</span></h1>
+                    <p class="subtitle">O Ceará, localizado no nordeste do Brasil, é um estado repleto de belezas naturais, cultura rica e hospitalidade calorosa. Se você está planejando uma viagem para esta região deslumbrante, este itinerário irá guiá-lo pelos principais destinos e pontos turísticos imperdíveis.</p>
+                </div>
+            </div>
+            <div class="row mainTopic" id="fortaleza">
+                <div class="col-12 col-md-6 ">
+                    <h1 class="title--topic"><span class="text-bg-light rounded-pill px-3">Fortaleza</span> - A Capital do Sol</h1>
+                    <p class="text">
+                        Comece sua jornada em Fortaleza, a capital do estado. Passe o dia explorando as praias icônicas, como a Praia de Iracema e a Praia do Futuro. Não se esqueça de experimentar a culinária local em um dos muitos quiosques de praia.
+                    </p>
+                </div>
+                <!--pc-->
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="../public/img/img-fortaleza.jpeg" alt="photo" class="img-topic" style="aspect-ratio: 4/1;">
+                </div>
+                <!--mobile-->
+                <div class="col-12 d-block d-md-none">
+                    <img src="../public/img/img-fortaleza.jpeg" alt="photo-mobile" class="img-topic-mobile">
+                </div>
+            </div>
+            <div class="row mainTopic" id="canoa-quebrada">
+                <!--pc-->
+                <div class="col-md-6 col-lg-4 d-none d-md-block">
+                    <img src="../public/img/img-canoaquebrada.jfif" alt="photo" class="img-topic">
+                </div>
+                <div class="col-12 col-md-6 col-lg-8">
+                    <h1 class="title--topic"><span class="text-bg-light rounded-pill px-3">Canoa Quebrada</span> - O Paraíso nas Falésias</h1>
+                    <p class="text">
+                        Dirija-se a Canoa Quebrada, uma pequena vila de pescadores famosa por suas falésias coloridas e dunas de areia. Desfrute de atividades como o passeio de jangada e admire o pôr do sol espetacular no alto das falésias.
+                    </p>
+                </div>
+                <!--mobile-->
+                <div class="col-12 d-block d-md-none">
+                    <div class="gallery-mobile">
+                        <img src="../public/img/img-canoaquebrada.jfif" alt="photo-mobile" class="img-topic-mobile">
+                        <img src="../public/img/img-canoaquebrada.jfif" alt="photo-mobile" class="img-topic-mobile">
+                    </div>
+                </div>
+            </div>
+            <div class="row mainTopic" id="jericoacoara">
+                <div class="col-12">
+                    <h1 class="title--topic"><span class="text-bg-light rounded-pill px-3">Jericoacoara</span> - O Paraíso dos Ventos</h1>
+                    <p class="text">
+                        Siga para Jericoacoara, uma das praias mais famosas do Brasil. Explore as lagoas paradisíacas, como a Lagoa Azul e a Lagoa do Paraíso. Experimente esportes aquáticos como kitesurfe, ou simplesmente relaxe em redes à beira d'água.
+                    </p>
+                </div>
+                <!--pc-->
+                <div class="col-12 d-none d-md-block">
+                    <div class="gallery">
+                        <img src="../public/img/dicas-de-jericoacoara-1.jpg" alt="photo" class="img-topic" style="aspect-ratio: 16/9;">
+                        <img src="../public/img/fotos-de-jericoacoara.jpg" alt="photo" class="img-topic" style="aspect-ratio: 16/9;">
+                    </div>
+                </div>
+                <!--mobile-->
+                <div class="col-12 d-block d-md-none">
+                    <img src="../public/img/img-jericoacoara.webp" alt="photo-mobile" class="img-topic-mobile">
+                </div>
+            </div>
+            <div class="row mainTopic" id="sobral">
+                <div class="col-12">
+                    <h1 class="title--topic"><span class="text-bg-light rounded-pill px-3">Sobral</span> - Riqueza Cultural e História</h1>
+                    <p class="text">
+                        Faça uma parada em Sobral para conhecer sua riqueza cultural e história. Visite o Teatro São João, uma das mais antigas casas de espetáculos do Brasil. Explore o Museu Madi e aprecie a arquitetura colonial.
+                    </p>
+                </div>
+                <!--pc-->
+                <div class="col-12 d-none d-md-block">
+                    <div class="gallery-1">
+                        <img src="../public/img/img-sobral.jpg" alt="photo" class="img-topic" style="aspect-ratio: 1/1;">
+                        <img src="../public/img/img-sobral-1.jpg" alt="photo" class="img-topic" style="aspect-ratio: 1/1;">
+                        <img src="../public/img/img-sobral-1.jpg" alt="photo" class="img-topic" style="aspect-ratio: 1/1;">
+                    </div>
+                </div>
+                <!--pc-->
+                <div class="col-12 d-block d-md-none">
+                    <img src="../public/img/img-sobral-1.jpg" alt="photo-mobile" class="img-topic-mobile">
+                </div>
+            </div>
+            <div class="row mainTopic" id="canions">
+                <div class="col-12 col-md-6">
+                    <h1 class="title--topic"><span class="text-bg-light rounded-pill px-3">Cânions do Rio São Francisco</span> - Belezas Naturais Únicas</h1>
+                    <p class="text">
+                        Parta em direção aos Cânions do Rio São Francisco, na divisa com Pernambuco. Faça um passeio de barco pelos imponentes cânions e aprecie as paisagens deslumbrantes do rio.
+                    </p>
+                </div>
+                <!--pc-->
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="../public/img/img-canions.jpg" alt="photo" class="img-topic" style="aspect-ratio: 4/1;">
+                </div>
+                <!--mobile-->
+                <div class="col-12 d-block d-md-none">
+                    <div class="gallery-mobile-3">
+                        <img src="../public/img/img-canions.jpg" alt="photo" class="img-topic-mobile">
+                        <img src="../public/img/img-canions-1.jpg" alt="photo" class="img-topic-mobile">
+                    </div>
+                </div>
+            </div>
+            <div class="row mainTopic" id="guaraminga">
+                <div class="col-12 col-md-6">
+                    <h1 class="title--topic"><span class="text-bg-light rounded-pill px-3">Guaramiranga</span> - O Refúgio nas Montanhas</h1>
+                    <p class="text">
+                        Guaramiranga é uma charmosa cidade serrana, perfeita para escapar do calor. Explore o Parque das Trilhas e o Pico Alto, de onde se tem uma vista panorâmica deslumbrante da região.
+                    </p>
+                </div>
+                <!--pc-->
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="gallery">
+                        <img src="../public/img/img-guaramiranga.jpg" alt="photo" class="img-topic">
+                        <img src="../public/img/img-guaramiranga-1.jpg" alt="photo" class="img-topic">
+                    </div>
+                </div>
+                <!--mobile-->
+                <div class="col-12 d-block d-md-none">
+                    <img src="../public/img/img-guaramiranga.jpg" alt="photo-mobile" class="img-topic-mobile">
+                </div>
+            </div>
+            <div class="row mainTopic" id="beberibe">
+                <div class="col-12">
+                    <h1 class="title--topic"><span class="text-bg-light rounded-pill px-3">Beberibe</span> - As Falésias de Morro Branco</h1>
+                    <p class="text">
+                        Encerre sua jornada visitando Beberibe. Explore as famosas falésias de Morro Branco e as incríveis formações de areia colorida. Não perca a oportunidade de conhecer a Praia das Fontes, com suas fontes de água doce.
+                    </p>
+                </div>
+                <!--pc-->
+                <div class="col-12 d-none d-md-block">
+                    <img src="../public/img/img-beberibe.jpg" alt="photo" class="img-topic" style="aspect-ratio: 30 /9;">
+                </div>
+                <!--mobile-->
+                <div class="col-12 d-block d-md-none">
+                    <img src="../public/img/img-beberibe.jpg" alt="photo" class="img-topic-mobile">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../public/js/script.js"></script>
+    <script src="../public/js/artigo.js"></script>
+</body>
+
+</html>
