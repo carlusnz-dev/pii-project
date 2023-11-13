@@ -35,7 +35,16 @@
                             <a class="nav-link" href="../index.html">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="artigo.html">Artigo</a>
+                            <div class="dropdown">
+                                <button class="btn bg-transparent dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Artigos
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../pages/artigo.html" class="dropdown-item">Artigo 1</a></li>
+                                    <li><a href="../pages/artigo-2.html" class="dropdown-item">Artigo 2</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link d-lg-block d-none" href="../index.html">
@@ -56,7 +65,7 @@
 
     <!--Título da página-->
     <main>
-        <div class="container" id="mainTitle">
+        <div class="container-fluid" id="mainCover">
             <div class="row">
                 <div class="col-12">
                     <h1 class="display-1 fw-bold">Explorando o Ceará</h1>
@@ -67,17 +76,25 @@
             </div>
         </div>
         <div class="container" id="mainContent">
-            <div class="row title">
-                <div class="col-12">
-                    <h1>Objetivos do podcast</h1>
-                    <p class="lead">Bem-vindo ao mundo fascinante do Ceará, onde cada episódio do nosso podcast "Explorando o Ceará" o levará a uma jornada única e cativante por esse estado brasileiro incrível. Se você é um amante de viagens, história, cultura e curiosidades, prepare-se para se apaixonar por cada canto desse lugar mágico.</p>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-8">
+                    <h3 class="title-topic">Objetivos do podcast</h3>
+                    <p class="lead">Bem-vindo ao mundo fascinante do Ceará, onde cada episódio do nosso podcast
+                        "Explorando o Ceará" o levará a uma jornada única e cativante por esse estado brasileiro
+                        incrível. Se você é um amante de viagens, história, cultura e curiosidades, prepare-se para se
+                        apaixonar por cada canto desse lugar mágico.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img src="../public/img/img-cacto (1).png" alt="phoyo" class="img-fluid">
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <h3 class="title-topic">Sobre nós</h3>
                     <p class="lead">
-                        "Explorando o Ceará" é mais do que apenas um podcast; é uma aventura auditiva que mergulha profundamente nas curiosidades, na história e nas peculiaridades do Ceará. Somos apaixonados por desvendar os segredos que tornam esse estado tão especial e compartilhá-los com você.
+                        "Explorando o Ceará" é mais do que apenas um podcast; é uma aventura auditiva que mergulha
+                        profundamente nas curiosidades, na história e nas peculiaridades do Ceará. Somos apaixonados por
+                        desvendar os segredos que tornam esse estado tão especial e compartilhá-los com você.
                     </p>
                 </div>
             </div>
@@ -85,7 +102,8 @@
                 <div class="col-12">
                     <h3 class="title-topic">O que esperar</h3>
                     <p class="lead">
-                        Cada episódio é uma janela para o Ceará, um lugar que mistura tradição e modernidade, cultura e natureza exuberante. Aqui, você encontrará:
+                        Cada episódio é uma janela para o Ceará, um lugar que mistura tradição e modernidade, cultura e
+                        natureza exuberante. Aqui, você encontrará:
                     </p>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -103,7 +121,9 @@
                                 data-bs-parent="#accordionTopic">
                                 <div class="accordion-body">
                                     <p class="lead">
-                                        Mergulhe na rica história do Ceará, desde os tempos coloniais até os dias atuais. Aprenda sobre os eventos que moldaram esse estado e descubra personagens notáveis que o influenciaram.
+                                        Mergulhe na rica história do Ceará, desde os tempos coloniais até os dias
+                                        atuais. Aprenda sobre os eventos que moldaram esse estado e descubra personagens
+                                        notáveis que o influenciaram.
                                     </p>
                                 </div>
                             </div>
@@ -120,7 +140,9 @@
                                 data-bs-parent="#accordionTopic">
                                 <div class="accordion-body">
                                     <p class="lead">
-                                        Explore as maravilhas naturais do Ceará, desde suas praias de areias douradas até os sertões áridos, passando por sua vegetação única e paisagens deslumbrantes.
+                                        Explore as maravilhas naturais do Ceará, desde suas praias de areias douradas
+                                        até os sertões áridos, passando por sua vegetação única e paisagens
+                                        deslumbrantes.
                                     </p>
                                 </div>
                             </div>
@@ -129,8 +151,7 @@
                         <div class="accordion-item">
                             <div class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     Cultura Vibrante
                                 </button>
                             </div>
@@ -138,7 +159,8 @@
                                 data-bs-parent="#accordionTopic">
                                 <div class="accordion-body">
                                     <p class="lead">
-                                        Entre no coração da cultura cearense, incluindo música, dança, culinária e festivais que tornam o Ceará um lugar verdadeiramente especial.
+                                        Entre no coração da cultura cearense, incluindo música, dança, culinária e
+                                        festivais que tornam o Ceará um lugar verdadeiramente especial.
                                     </p>
                                 </div>
                             </div>
@@ -147,8 +169,7 @@
                         <div class="accordion-item">
                             <div class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     Curiosidades e Peculiaridades
                                 </button>
                             </div>
@@ -156,7 +177,8 @@
                                 data-bs-parent="#accordionTopic">
                                 <div class="accordion-body">
                                     <p class="lead">
-                                        Descubra fatos surpreendentes e peculiaridades que podem surpreendê-lo e fazer você enxergar o Ceará sob uma nova perspectiva.
+                                        Descubra fatos surpreendentes e peculiaridades que podem surpreendê-lo e fazer
+                                        você enxergar o Ceará sob uma nova perspectiva.
                                     </p>
                                 </div>
                             </div>
@@ -164,7 +186,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
-                    <img src="../public/img/background-cover-1.jpg" alt="photo" class="img-fluid">
+                    <img src="../public/img/img-fortaleza.jpeg" alt="photo" class="photo">
                 </div>
             </div>
             <div class="row">
@@ -179,11 +201,21 @@
                     </p>
                 </div>
                 <div class="col-12">
-                    <iframe src="https://podcasters.spotify.com/pod/show/carlusnz-dev/embed/episodes/Explorando-o-Cear---Apresentao-e2abf0f" frameborder="0" scrolling="no"></iframe>
+                    <iframe
+                        src="https://podcasters.spotify.com/pod/show/carlusnz-dev/embed/episodes/Explorando-o-Cear---Apresentao-e2abf0f"
+                        frameborder="0" scrolling="no"></iframe>
                 </div>
-                <div class="col-12">
-                    <h3 class="fw-bold">Entre versos e Cordéis</h3>
-                    <p class="lead">
+                <ul class="nav nav-tabs nav-justified mt-5">
+                    <li class="nav-item nav-artigo">
+                        <a href="#div1" class="nav-link active" onclick="toggleDiv('div1')">História - Artigo 1</a>
+                    </li>
+                    <li class="nav-item nav-artigo">
+                        <a href="#div2" class="nav-link active" onclick="toggleDiv('div2')">História - Artigo 2</a>
+                    </li>
+                </ul>
+                <div class="col-12 hidden-div" id="div1">
+                    <h3 class="fw-bold text-center">Entre versos e Cordéis</h3>
+                    <p class="lead text-center">
                         Não muito tempo atrás, em um dia quente de fevereiro de
                         1927, nasceu um menino numa cidade chamada Assaré,
                         interior do Ceará. Seu nome era Dirceu, nascido de família
@@ -259,6 +291,9 @@
                         coração nunca havia saído."
                     </p>
                 </div>
+                <div class="col-12 hidden-div d-none" id="div2">
+                    <p>teste</p>
+                </div>
             </div>
         </div>
     </main>
@@ -269,6 +304,26 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
     <script src="../public/js/script.js"></script>
+    <script>
+        function toggleDiv(divId) {
+            // Hide all divs
+            $('.hidden-div').addClass('d-none').removeClass('d-block');
+            // Show the selected div
+            $('#' + divId).addClass('d-block').removeClass('d-none');
+
+            // Update the active state of nav-items
+            $('.nav-item').removeClass('active');
+
+            // Check which div is active and add 'active' class accordingly
+            if (divId === 'div1') {
+                $('a[href="#"][onclick="toggleDiv(\'div1\')"]').parent().addClass('active');
+                $('a[href="#"][onclick="toggleDiv(\'div2\')"]').parent().removeClass('active');
+            } else if (divId === 'div2') {
+                $('a[href="#"][onclick="toggleDiv(\'div2\')"]').parent().addClass('active');
+                $('a[href="#"][onclick="toggleDiv(\'div2\')"]').parent().removeClass('active');
+            }
+        }
+    </script>
 </body>
 
 </html>
