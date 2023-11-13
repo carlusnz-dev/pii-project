@@ -1,13 +1,15 @@
 #title-cover {
-    margin: 5rem auto;
-    height: 70vh;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background: url(../img/img-fortaleza.jpeg) no-repeat fixed;
+    background: fixed url(../img/img-fortaleza.jpeg) no-repeat;
+    height: 70vh;
     background-size: cover;
+    background-position: center;
+    text-align: center;
 }
 
 #title-cover .lead {
@@ -41,7 +43,7 @@
 
 .mainTopic {
     padding: 0 50px;
-} 
+}
 
 .title--topic {
     font-weight: lighter;
