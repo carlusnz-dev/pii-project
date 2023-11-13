@@ -110,6 +110,14 @@
     .mainTopic {
         padding: 0 7px;
     }
+
+    .title--topic {
+        text-align: center;
+    }
+
+    .text {
+        text-align: center;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
